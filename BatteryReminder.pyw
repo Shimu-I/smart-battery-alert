@@ -32,8 +32,8 @@ def check_battery(stop_event):
             percent = battery.percent
             is_plugged = battery.power_plugged
 
-            # Check if battery is <= 30% and not plugged in
-            if percent <= 30 and not is_plugged:
+            # Check if battery is <= 40% and not plugged in
+            if percent <= 40 and not is_plugged:
                 current_time = time.time()
                 if current_time - last_low_battery_notification >= notification_interval:
                     show_notification(
