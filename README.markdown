@@ -1,3 +1,6 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/Shimu-I/smart-battery-alert)
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=Shimu-I/smart-battery-alert)
+
 # Battery Reminder
 
 A lightweight Python script to monitor laptop battery levels and send desktop notifications to maintain battery health by keeping the charge between 40% and 80%. Designed for Windows 11, tested on an MSI Modern 15 B7M.
